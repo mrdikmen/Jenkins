@@ -2,14 +2,13 @@ package tests;
 
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertTrue;
+
 public class Jenkins {
 
     @Test
     void Test1(){
         assertTrue(true);
-    }
-
-    private void assertTrue(boolean b) {
     }
 
     @Test
@@ -44,6 +43,10 @@ public class Jenkins {
     }
     @Test
     void Test10(){
+        assertTrue(true);
+    }
+    @Test
+    void Test11(){
         assertTrue(true);
     }
 }
